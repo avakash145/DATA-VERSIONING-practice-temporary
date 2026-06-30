@@ -8,5 +8,6 @@
 7.next "dvc add data/"
 now it will ask to do ("git rm -r --cached 'data'" and "git commit -m "stop tracking data"")
 because initially the data was first trackdown from the git we have to remove it from their to give the handle to dvc
-8. again do "dvc add data/"
- 
+8. again do "dvc add data/" creates data.dvc then "git add .gitignore data.dvc"
+9. Now - "dvc commit" and then "dvc push"
+10.
