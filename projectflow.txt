@@ -13,3 +13,6 @@ because initially the data was first trackdown from the git we have to remove it
 do git add commit push to mark this stage as first version of the data 
 10. now make changes to code.py to append a new row in data , check changes via 'dvc status'
 11. Again -- "dvc commit" and then 'dvc push'
+12. then git add commit push (we are saving v2 of our data at this point)
+13. check dvc/git status, everything should be upto date 
+14 
